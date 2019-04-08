@@ -4,10 +4,13 @@ ul {
   padding: 0;
   overflow: hidden;
   background-color: #333;
+  opacity: 0.7;
+  border-radius: 12px;
 }
 
 li {
   float: left;
+  position: sticky;
 }
 
 li a {
@@ -20,5 +23,9 @@ li a {
 
 li a:hover {
   background-color: #009BFF;
-  opacity: 0.5;
+}
+
+title {
+  font-family: helvetica;
+  font-size: 400%;
 }

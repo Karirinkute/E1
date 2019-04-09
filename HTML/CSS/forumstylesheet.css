@@ -1,3 +1,11 @@
+html  {
+  background-image: url("../forumbg.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -25,11 +33,17 @@ li a:hover {
   background-color: #009BFF;
 }
 
-.title {
-  font-family: helvetica;
-  font-size: 400
+h1 {
+  font-size: 350%
 }
 
 .tekstvak {
+  height: 150px;
+  width: 1663px;
   background-color: rgba(229,228,215, 0.25);
   border-radius: 12px;
+}
+
+p {
+margin-left: 10px;
+}

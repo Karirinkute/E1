@@ -37,6 +37,17 @@ h1 {
   font-size: 350%
 }
 
+.logo {
+  position: absolute;
+  bottom:88%;
+  left:30%;
+  transform: translateX(-50%);
+  width: 120px;
+  height: 100px;
+  background: url("../logo_forum.png"); center center no-repeat;
+  background-size: cover;
+}
+
 .tekstvak {
   height: 150px;
   width: 1663px;

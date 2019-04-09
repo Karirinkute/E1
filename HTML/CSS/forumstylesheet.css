@@ -25,7 +25,11 @@ li a:hover {
   background-color: #009BFF;
 }
 
-title {
+.title {
   font-family: helvetica;
-  font-size: 400%;
+  font-size: 400
 }
+
+.tekstvak {
+  background-color: rgba(229,228,215, 0.25);
+  border-radius: 12px;
